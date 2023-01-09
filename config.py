@@ -1,7 +1,7 @@
 import torch
+from transformers import BertModel
 import gluonnlp as nlp
 from kobert_tokenizer import KoBERTTokenizer
-from transformers import BertModel
 
 
 tokenizer = KoBERTTokenizer.from_pretrained("skt/kobert-base-v1")
